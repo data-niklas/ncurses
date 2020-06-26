@@ -6,6 +6,9 @@ lib LibNCurses
   # If `#get_char` returns `NCurses::Key:Mouse`,
   # Check using `NCurses#get_mouse`which returns a `MouseEvent`,
   # which contains `#state`.
+
+
+
   @[Flags]
   enum Mouse : LibC::ULong
     # B1: Left Button

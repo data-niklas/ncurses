@@ -15,6 +15,10 @@ module NCurses
     def initialize(@device_id, @coordinates, @state)
     end
 
+    def state_includes?(mouse : Mouse)
+      @state.value & mouse.value > 0
+    end
+
     # If this mouse event took place inside a specific window
     def enclose?(window : Window)
       window.enclose?(self)

@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/SamualLB/ncurses.svg?branch=master)](https://travis-ci.com/SamualLB/ncurses)
 # ncurses
 
 Ncurses Bindings for Crystal
@@ -10,7 +9,7 @@ Ncurses Bindings for Crystal
 ```yaml
 dependencies:
   ncurses:
-    github: SamualLB/ncurses
+    github: data-niklas/ncurses
 ```
 
 2. Run `shards install`
@@ -69,7 +68,7 @@ $ crystal run examples/scroll.cr
 
 ## Contributing
 
-1. Fork it ( https://github.com/SamualLB/ncurses.git )
+1. Fork it ( https://github.com/data-niklas/ncurses.git )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -79,3 +78,4 @@ $ crystal run examples/scroll.cr
 
 - (https://github.com/jreinert) Joakim Reinert - creator, maintainer
 - (https://github.com/SamualLB) Samual Black - maintainer
+- (https://github.com/data-niklas) Niklas Loeser - contributer
